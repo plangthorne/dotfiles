@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+
+- clean:
+  - '~'
+
+- link:
+  #    .dotfiles:
+  #      path: ''
+    ~/.vim:
+      path: vim/
+    ~/.vimrc:
+      path: vimrc
+    ~/.zshenv:
+      path: zshenv
+
